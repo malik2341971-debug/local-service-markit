@@ -51,8 +51,8 @@
                 "menu_active": "admin.account.listing.rejected"
             },
             {
-                "keyword": ["Sold service","Completed service","Delivered service","Exchanged service"],
-                "title": "Sold Services",
+                "keyword": ["Sold service","Completed service","Delivered service","Exchanged service","Booked service"],
+                "title": "Booked Services",
                 "route_name": "admin.account.listing.sold",
                 "menu_active": "admin.account.listing.sold"
             },

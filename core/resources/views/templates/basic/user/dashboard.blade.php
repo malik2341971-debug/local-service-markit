@@ -85,7 +85,7 @@
                     <div class="dashboard-item">
                         <div class="dashboard-item__content">
                             <a class="dashboard-item__title" href="{{ route('user.account.listing.purchase') }}">
-                                @lang('Purchased Services') </a>
+                                @lang('Booked Services') </a>
                             <h3 class="dashboard-item__currency"> {{ $purchaseAccountsCount }} </h3>
                         </div>
                         <span class="dashboard-item__icon"> <i class="fas fa-shopping-bag"></i></span>

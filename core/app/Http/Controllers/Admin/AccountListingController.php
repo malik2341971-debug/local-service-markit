@@ -67,7 +67,7 @@ class AccountListingController extends Controller
     }
     public function sold(Request $request)
     {
-        $pageTitle  = 'Sold Listings';
+        $pageTitle  = 'Booked Services';
         $accountListings = $this->listingData($scope = 'sold', $request);
         $categories = Category::get();
         $socialMedias = SocialMedia::get();

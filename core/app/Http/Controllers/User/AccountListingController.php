@@ -753,14 +753,14 @@ class AccountListingController extends Controller
 
     public function purchaseAccount()
     {
-        $pageTitle = 'Purchases Account';
+        $pageTitle = 'Booked Services';
         $soldAccountListings = AccountListing::where('buyer_id', auth()->user()->id)->where('status', Status::LISTING_SOLD)->paginate(getPaginate());
         return view('Template::user.account_listings.sold_listing', compact('pageTitle', 'soldAccountListings'));
     }
 
     public function purchaseAccountDetails($id)
     {
-        $pageTitle = 'Purchase Account Details';
+        $pageTitle = 'Booked Service Details';
         $soldAccountListing = AccountListing::where('buyer_id', auth()->user()->id)->where('status', Status::LISTING_SOLD)->findOrFail($id);
         return view('Template::user.account_listings.sold_listing_details', compact('pageTitle', 'soldAccountListing'));
     }

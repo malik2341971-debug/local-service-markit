@@ -83,7 +83,7 @@
                                         <li class="user-info-dropdown__item">
                                             <a class="{{menuActive('user.account.listing.purchase')}} user-info-dropdown__link" href="{{ route('user.account.listing.purchase') }}">
                                                 <span class="icon"><i class="fas fa-shopping-basket"></i></span>
-                                                <span class="text"> @lang('Purchased Services') </span>
+                                                <span class="text"> @lang('Booked Services') </span>
                                             </a>
                                         </li>
                                         <li class="user-info-dropdown__item">
@@ -179,7 +179,7 @@
             <li class="user-info-dropdown__item">
                 <a class="{{menuActive('user.account.listing.purchase')}} user-info-dropdown__link" href="{{ route('user.account.listing.purchase') }}">
                     <span class="icon"><i class="fas fa-shopping-basket"></i></span>
-                    <span class="text"> @lang('Purchased Services') </span>
+                    <span class="text"> @lang('Booked Services') </span>
                 </a>
             </li>
             <li class="user-info-dropdown__item">
